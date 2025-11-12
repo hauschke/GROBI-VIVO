@@ -5,6 +5,8 @@ In the GROBI project, a reference implementation for bibliometric observatories 
 
 To this end, approaches and methods from visual analytics and library and information science are combined. On the one hand, reliable implementations for common bibliometric methods based on open data sources are created. On the other hand, a graphical user interface with interactive visualisation options is created, by means of which the functionalities can be combined in a simple drag-n-drop interface and results can be exported. All components are published open-source in the form of individually reusable modules.
 
+### GROBI-VIVO
+The architecture is based on 3-tier approach which is widely used by TIBs VIVO projects. Unlike other TIB VIVO projects, however, this one does not use TIB VIVO and Vitro forks with minor modifcations, but instead, the official repositories are integrated as submodules. A github action (https://github.com/bkampe/GROBI-VIVO/blob/main/.github/workflows/docker-image.yml) is used here to build the two Docker images GROBI-VIVO and GROBI-SOLR and upload them to Docker Hub (https://hub.docker.com/u/bkampe).
 
 ### How to use the images
 
