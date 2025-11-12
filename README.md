@@ -6,7 +6,7 @@ In the GROBI project, a reference implementation for bibliometric observatories 
 To this end, approaches and methods from visual analytics and library and information science are combined. On the one hand, reliable implementations for common bibliometric methods based on open data sources are created. On the other hand, a graphical user interface with interactive visualisation options is created, by means of which the functionalities can be combined in a simple drag-n-drop interface and results can be exported. All components are published open-source in the form of individually reusable modules.
 
 
-# How to use the images
+### How to use the images
 
 To get a VIVO instance up and running using the docker images is quite simple. 
 
